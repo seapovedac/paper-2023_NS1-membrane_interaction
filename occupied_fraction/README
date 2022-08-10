@@ -1,0 +1,29 @@
+# Occupied fraction for each replica of each system was calculated following the next command lines:
+# Group 7 = Chain_A
+# Group 8 = Chain_B
+
+value=0.52
+
+file_tr=../3.zikv-ug_apo_replica1.xtc
+
+c="'"
+group=$c"group 7 and within $value of group 8"$c
+
+echo "gmx select -s ../../3.zikv-ug_apo.tpr -f $file_tr -n ../../pm.ndx -select ${group} -oi toto_$value.all -on index_$value.ndx -os select_figure_s_$value.xvg -resnr number -seltype res_com -oc cover_$value.xvg -of occupied_fraction_$value.xvg -ofpdb occupied_fraction_$value.pdb -olt lifetime_$value.xvg -selrpos atom -tu us" > hola
+chmod +x hola ; ./hola
+rm hola
+
+# Once the occupied fraction is obtained the average is calculate:
+
+./average_of/average_occ-frac.sh
+
+# The average curve for each strain is used to compute the relevant residues
+
+python occupied-fraction_difference_range.py
+
+# Visualization
+
+cutoff=0.5 
+xmgrace -settype xydy 0.ug_average_curve_1.dat 0.br_average_curve_1.dat difference_cutoff${cutoff}.dat difference_point_cutoff${cutoff}.dat
+
+# All previous steps were repeated assuming Chain B (for PP interface) or the dimer (for PM interface) as a reference group when executing "gmx select" command.

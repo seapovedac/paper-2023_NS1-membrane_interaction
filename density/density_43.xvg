@@ -1,0 +1,74 @@
+# This file was created Sat Apr 10 12:34:13 2021
+# Created by:
+#                     :-) GROMACS - gmx density, 2020.2 (-:
+# 
+# Executable:   /opt/apps/pkg/gromacs/2020.2/single/bin/gmx
+# Data prefix:  /opt/apps/pkg/gromacs/2020.2/single
+# Working dir:  /home/etoile/cuevas/UG/ug_rep1/DENSITY_new
+# Command line:
+#   gmx density -s ../../Init_MD.tpr -f ../pm_Total_R1_0to20_nojump_fittrans_mol.xtc -n ../../index_density_ug.ndx -o density_43.xvg -d Z -b 0 -e 20000000
+# gmx density is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "AM"
+    0.175567                0
+      0.5267                0
+    0.877833                0
+     1.22897                0
+      1.5801                0
+     1.93123                0
+     2.28237                0
+      2.6335                0
+     2.98463                0
+     3.33577                0
+      3.6869                0
+     4.03803                0
+     4.38916                0
+      4.7403                0
+     5.09143                0
+     5.44256      6.27907e-05
+      5.7937       0.00268922
+     6.14483         0.073348
+     6.49596         0.821134
+      6.8471          3.65599
+     7.19823          6.72862
+     7.54936          4.94801
+      7.9005          1.36422
+     8.25163         0.133624
+     8.60276       0.00470635
+      8.9539        0.0010528
+     9.30503        0.0398621
+     9.65616         0.547596
+     10.0073          2.87277
+     10.3584          6.30893
+     10.7096          5.68892
+     11.0607          1.99978
+     11.4118          0.26039
+      11.763        0.0129108
+     12.1141      0.000295576
+     12.4652                0
+     12.8164                0
+     13.1675                0
+     13.5186                0
+     13.8698                0
+     14.2209                0
+      14.572                0
+     14.9232                0
+     15.2743                0
+     15.6254                0
+     15.9766                0
+     16.3277                0
+     16.6788                0
+       17.03                0
+     17.3811                0

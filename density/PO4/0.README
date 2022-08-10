@@ -1,0 +1,5 @@
+# Steps
+
+1. Convert x and y values with convert_density.sh.
+2. Calculate average average_density.sh.
+3. To get the figures figures.sh.

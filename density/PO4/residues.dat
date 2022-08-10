@@ -1,0 +1,112 @@
+	s1 symbol 1
+	s1 symbol size 0.5
+	s1 symbol color 1
+	s1 symbol pattern 1
+	s1 symbol fill color 1
+	s1 symbol fill pattern 1
+	s1 symbol linewidth 1.0
+	s1 symbol linestyle 1
+	s1 symbol char 65
+	s1 symbol char font 0
+	s1 symbol skip 0
+	s1 line type 1
+	s1 line linestyle 1
+	s1 line linewidth 1
+	s1 line color 1
+	s1 legend  "D1"
+	s2 symbol 1
+	s2 symbol size 0.5
+	s2 symbol color 2
+	s2 symbol pattern 1
+	s2 symbol fill color 2
+	s2 symbol fill pattern 1
+	s2 symbol linewidth 1.0
+	s2 symbol linestyle 1
+	s2 symbol char 65
+	s2 symbol char font 0
+	s2 symbol skip 0
+	s2 line type 1
+	s2 line linestyle 1
+	s2 line linewidth 1
+	s2 line color 2
+	s2 legend  "D7"
+	s3 symbol 1
+	s3 symbol size 0.5
+	s3 symbol color 3
+	s3 symbol pattern 1
+	s3 symbol fill color 3
+	s3 symbol fill pattern 1
+	s3 symbol linewidth 1.0
+	s3 symbol linestyle 1
+	s3 symbol char 65
+	s3 symbol char font 0
+	s3 symbol skip 0
+	s3 line type 1
+	s3 line linestyle 1
+	s3 line linewidth 1
+	s3 line color 3
+	s3 legend  "S8"
+	s4 symbol 1
+	s4 symbol size 0.5
+	s4 symbol color 4
+	s4 symbol pattern 1
+	s4 symbol fill color 4
+	s4 symbol fill pattern 1
+	s4 symbol linewidth 1.0
+	s4 symbol linestyle 1
+	s4 symbol char 65
+	s4 symbol char font 0
+	s4 symbol skip 0
+	s4 line type 1
+	s4 line linestyle 1
+	s4 line linewidth 1
+	s4 line color 4
+	s4 legend  "K10"
+	s5 symbol 1
+	s5 symbol size 0.5
+	s5 symbol color 9
+	s5 symbol pattern 1
+	s5 symbol fill color 9
+	s5 symbol fill pattern 1
+	s5 symbol linewidth 1.0
+	s5 symbol linestyle 1
+	s5 symbol char 65
+	s5 symbol char font 0
+	s5 symbol skip 0
+	s5 line type 1
+	s5 line linestyle 1
+	s5 line linewidth 1
+	s5 line color 9
+	s5 legend  "E12"
+	s6 symbol 1
+	s6 symbol size 0.5
+	s6 symbol color 11
+	s6 symbol pattern 1
+	s6 symbol fill color 11
+	s6 symbol fill pattern 1
+	s6 symbol linewidth 1.0
+	s6 symbol linestyle 1
+	s6 symbol char 65
+	s6 symbol char font 0
+	s6 symbol skip 0
+	s6 line type 1
+	s6 line linestyle 1
+	s6 line linewidth 1
+	s6 line color 11
+	s6 legend  "G16"
+	s7 symbol 1
+	s7 symbol size 0.5
+	s7 symbol color 6
+	s7 symbol pattern 1
+	s7 symbol fill color 6
+	s7 symbol fill pattern 1
+	s7 symbol linewidth 1.0
+	s7 symbol linestyle 1
+	s7 symbol char 65
+	s7 symbol char font 0
+	s7 symbol skip 0
+	s7 line type 1
+	s7 line linestyle 1
+	s7 line linewidth 1
+	s7 line color 6
+	s7 legend  "S300"
