@@ -26,4 +26,4 @@ python occupied-fraction_difference_range.py
 cutoff=0.5 
 xmgrace -settype xydy 0.ug_average_curve_1.dat 0.br_average_curve_1.dat difference_cutoff${cutoff}.dat difference_point_cutoff${cutoff}.dat
 
-# All previous steps were repeated assuming Chain B (for PP interface) or the dimer (for PM interface) as a reference group when executing "gmx select" command.
+# All previous steps were repeated assuming Chain B (for PP interface) or the whole dimer (for PM interface) as a reference group when executing "gmx select" command.
