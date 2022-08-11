@@ -7,7 +7,7 @@ gmx covar -s $reference -f $trajectory -xpm
 
 echo -e 1 1 | gmx anaeig -v eigenvec.trr -f $trajectory -s $reference -eig eigenval.xvg -comp -proj -first 1 -last 2 -2d
 
-for ((i=1; i<=1 ; i+=1)) do
+for ((i=1; i<=3 ; i+=1)) do
 
 	if [ $i -eq 1 ];then
 		first_pc=1
