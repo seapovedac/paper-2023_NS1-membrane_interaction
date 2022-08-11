@@ -32,4 +32,3 @@ egrep -v "\#|@|\&" 2dproj_apo.xvg > data_apo
 echo 1 1 | gmx anaeig -v ../eigenvec.trr -f ../$trajectory -s ../$reference -eig ../eigenval.xvg -comp -proj -first 2 -last 3 -2d 2dproj_holo.xvg -tu us -b 27 -e 84
 egrep -v "\#|@|\&" 2dproj_holo.xvg > data_holo
 cd ..
-
